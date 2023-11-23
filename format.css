@@ -1,41 +1,256 @@
 /* top right bottom left */
-.wrapper
-{
-	padding-top : 3px;
-	padding-left : 5px;
-	width : 100% ;
-	height : 800px ;
-	/* border : 1px solid red; */
+.wrapper {
+	height : 180% ;
+	padding-left : 5px ;
 }
 
-.header
-{
-	padding-left : 5px;
-	width : 100%;
-	height : 150px;
+.header {
+	width : 1860px ;
+	height : 140px;
+	padding-left : 10px;
+	padding-top : 10px;
+	background-color : #1F573B; 
+}
+
+.header_text {
 	font-family : Arial ;
+	font-size : 32px ;
 	color : white ;
-	background-color : #1F573B ; 
-	border : 1px solid red;
+	margin: 28px 450px 10px 0 ;
+	float : left ;
 }
 
-.headertext {
-	margin: 30px 3px 0;
-	float:left;
+.comsoc_register {
+	width : 1860px ;
+	height : 120px;
+	color : black;
+	margin : 5px 0 0 0;
+	padding-left : 10px;
+	padding-top : 10px;
+	font-family : Arial;
+	border-radius : 20px ;
+	background-color : white; 
+}
+
+.register_text {
+	font-size : 22px ;
+	font-family : Arial ;
+	line-height : 0.3 ;
+	color : black ;
+	margin: 10px 500px 10px 0 ;
+	float : left ;
+}
+
+.gen_assembly {
+	width : 1860px ;
+	height : 400px;
+	color : black;
+	margin : 15px 0 0 0;
+	padding-left : 10px;
+	padding-top : 10px;
+	font-family : Arial;
+	border-radius : 20px ;
+	background-color : white; 
+}
+
+.assembly_text {
+	font-size : 22px ;
+	font-family : Arial ;
+	text-align : center ;
+	letter-spacing : 1px ;
+	line-height : 1.2 ;
+	color : black ;
+	margin: 0 220px 10px 0 ;
+	float : right ;
+}
+
+.gallery {
+	width : 1860px ;
+	height : 350px;
+	font-size : 22px ;
+	font-family : Arial ;
+	text-align : center ;
+	letter-spacing : 1px ;
+	color : black;
+	margin : 15px 0 0 0 ;
+	padding : 10px 0 0 10px ;
+	border-radius : 20px ;
+	background-color : white ; 
+}
+
+.footer {
+	width : 1860px ;
+	height : 80px ;
+	margin : 15px 0 10px 0 ;
+	padding : 0 0 0 10px ;
+	background-color : #FFFDD8 ; 
+	float : left ;
+}
+
+.footer_text_left {
+	font-size : 22px ;
+	font-family : Arial ;
+	text-align : left ;
+	letter-spacing : 1px ;
+	color : black;
+	margin : 28px 0 15px 0 ;
+	float : left ;
+}
+
+.footer_text_right {
+	font-size : 22px ;
+	font-family : Arial ;
+	text-align : left ;
+	letter-spacing : 1px ;
+	color : black;
+	margin : 28px 15px 0 0 ;
+	float : right ;
 }
 
 /* IMAGE PROPERTIES */
 
-.img_header
-{
-	padding-top : 5px ;
-	padding-left : 5px ;
-	padding-right : 10px ;
-	float: left;
-	width : 130px;
+.img_header {
+	width : 130px ;
+	margin : 0 12px 0 0 ;
+	float : left;
 }
 
-.registerNow
-{
+.comsoc_logo {
+	width : 110px ;
+	margin : 0 30px 0 10px ;
+	border-radius : 55px ;
+	float : left ;
+}
 
+.img_hero {
+	height : 370px ;
+	margin : 10px 60px ;
+	border-radius : 20px ;
+	float : left ;
+}
+
+.img1_gallery {
+	height : 220px ;
+	margin : 10px 0 0 100px ;
+	border-radius : 20px ;
+	float : left ;
+}
+
+.img2_gallery {
+	height : 220px ;
+	margin : 10px 0 0 150px ;
+	border-radius : 20px ;
+	float : left ;
+}
+
+.img3_gallery {
+	height : 220px ;
+	margin : 10px 0 0 150px ;
+	border-radius : 20px ;
+	float : left ;
+}
+
+.ccis_logo_footer {
+	width : 70px ;
+	margin : 0 10px ;
+	margin : 5px 10px ;
+	float : right ;
+}
+
+/* BUTTON PROPERTIES */
+
+.navigation_links a {
+	width : 80px ;
+	color : black ;
+	font-family : Arial ;
+	font-size : 24px ;
+	text-align : center ;
+	text-decoration : none ;
+	border-radius : 10px;
+	background-color : #00D370;
+	display : inline-block ;
+	margin: 38px 7px 0 0;
+	padding : 12px 60px;
+	box-shadow: 0 5px #15482F;
+}
+
+.navigation_links a:hover {
+	background-color : #F0C72C ;
+	transition : 0.3s ;
+}
+
+.comsoc_button a {
+	width : 250px ;
+	color : black ;
+	font-family : Arial ;
+	font-size : 24px ;
+	text-align : center ;
+	text-decoration : none ;
+	border-radius : 20px;
+	background-color : #00D370;
+	display : inline-block ;
+	margin: 20px 25px 0 0;
+	padding : 20px 100px;
+	box-shadow: 0 5px #D7D7D7;
+	float : right ;
+}
+
+.comsoc_button a:hover {
+	background-color : #F0C72C ;
+	transition : 0.3s ;
+}
+
+.assembly_button a {
+	width : 200px ;
+	color : black ;
+	font-family : Arial ;
+	font-size : 24px ;
+	text-align : center ;
+	text-decoration : none ;
+	border-radius : 20px ;
+	background-color : #00D370 ;
+	display : inline-block ;
+	margin: 10px 410px 0 0;
+	padding : 20px 65px;
+	float : right ;
+	box-shadow: 0 5px #D7D7D7;
+}
+
+.assembly_button a:hover {
+	background-color : #F0C72C ;
+	transition : 0.3s ;
+}
+
+.gallery_next {
+	width : 0px ;
+	border-top : 40px solid transparent ;
+	border-left : 65px solid #00D370 ;
+	border-bottom : 40px solid transparent ;
+	display : inline-block ;
+	margin: 80px 30px 0 0;
+	float : right ;
+}
+
+.gallery_next:hover{
+	border-top : 40px solid transparent ;
+	border-left : 65px solid #F0C72C ;
+	border-bottom : 40px solid transparent ;
+	transition : 0.3s ;
+}
+
+.gallery_back {
+	width : 0px ;
+	border-top : 40px solid transparent ;
+	border-right : 65px solid #00D370 ;
+	border-bottom : 40px solid transparent ;
+	display : inline-block ;
+	margin: 80px 0 0 25px;
+	float : left ;
+}
+
+.gallery_back:hover {
+	border-top : 40px solid transparent ;
+	border-right : 65px solid #F0C72C ;
+	border-bottom : 40px solid transparent ;
+	transition : 0.3s ;
 }
